@@ -1,0 +1,35 @@
+.programs {
+    @apply flex flex-col gap-8 pt-32
+}
+
+.programs-header {
+    @apply flex gap-20 font-bold text-5xl justify-center text-white uppercase italic
+}
+
+.program-categories {
+    @apply flex gap-3 w-full p-4
+}
+
+.category {
+    @apply flex flex-col w-1/4 bg-[gray] p-8 gap-4 text-white justify-between hover:bg-gradient-to-tr from-red-400 to-red-600 cursor-pointer
+}
+
+.category>:nth-child(2) {
+    @apply text-base font-bold
+}
+
+.category>:nth-child(3) {
+    @apply text-[0.9rem] leading-5
+}
+
+.join-now {
+    @apply flex justify-start gap-10 items-center
+}
+
+.join-now>:nth-child(1) {
+    @apply text-lg
+}
+
+.join-now>:nth-child(2) {
+    @apply text-3xl
+}

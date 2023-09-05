@@ -1,0 +1,13 @@
+.header{
+    @apply flex justify-between items-center
+}
+.logo{
+    @apply w-40 h-12
+}
+
+.header-menu{
+    @apply list-none flex gap-8 text-white
+}
+.header-menu>li{
+    @apply cursor-pointer hover:text-red-500
+}
